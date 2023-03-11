@@ -1,0 +1,61 @@
+
+body{
+    background-color: #fff !important;
+}
+
+.font-color1{
+    color: #556a95 !important;
+}
+
+
+.font-personal i{
+    color: #fff !important;
+}
+
+.bg-color1{
+    background-color: #556a95 !important;
+}
+
+.navbar ul li a{
+    color: #fff !important;
+    
+}
+
+.navbar .container-fluid button i{
+    color: #fff !important;
+    border: none;
+}
+
+.inicio{
+    margin-top: 5%;
+
+}
+
+.container .row .col .container .img-hero{
+    border: solid 3px #556a95;
+    border-radius: 50%;
+    background-color: #556a95;
+}
+
+.progress-bar{
+    background-color: #556a95 !important;
+}
+
+.container .row .col .progress{
+    height: 20px;
+}
+.font-personal{
+    font-family: 'Great Vibes';
+}
+
+.botom-card{
+    background-color: #556a95;
+}
+
+footer .col .a{
+    color: #556a95 !important;
+}
+
+.card-project:hover{
+    border: 1px solid #556a95;
+}

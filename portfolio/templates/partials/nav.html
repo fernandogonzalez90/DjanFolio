@@ -1,0 +1,22 @@
+{% load static %}
+<header class="bg-color1">
+  <nav class="navbar navbar-expand-lg" aria-label="Eighth navbar example">
+    <div class="container">
+      <a class="navbar-brand text-light font-monospace" href="#"><i class="fa-solid fa-terminal bg-dark p-2 rounded"></i> Fernando Gonzalez</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample07">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'blog:posts' %}">BLOG</a>
+          </li>
+        </ul>
+        <a href="{% static 'Fernando_Gonzalez.pdf' %}" target="_blank" class="btn btn-outline-light">Descargar CV</a>
+      </div>
+    </div>
+  </nav>
+</header>
