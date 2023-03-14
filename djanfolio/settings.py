@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'djanfolio.wsgi.application'
 DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'djanfolio',
-            'USER': 'fernandogonzalez$djanfolio',
-            'PASSWORD': 'Zspfa825,.-',
-            'HOST': 'fernandogonzalez90.mysql.pythonanywhere-services.com',
+            'NAME': '',
+            'USER': '',
+            'PASSWORD': '',
+            'HOST': '',
             'PORT': '3306',
         }
     }
